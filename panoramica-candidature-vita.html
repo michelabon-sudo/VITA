@@ -174,7 +174,7 @@ a{color:inherit;text-decoration:none}
 <div class="topbar"><div class="topbar-in">
 <div class="brand"><b>V.I.T.A.</b> &nbsp;/&nbsp; Resoconto candidature</div>
 <nav class="topnav">
-<a href="#metriche">Metriche</a><a href="#ammiss">Mappa</a><a href="#azioni">Azioni</a><a href="#dossier">Schede</a>
+<a href="#metriche">Metriche</a><a href="#ammiss">Mappa</a><a href="#dossier">Schede</a>
 </nav></div></div>
 
 <div class="wrap"><header class="hero">
@@ -263,8 +263,8 @@ un'idea d'insieme prima di aprire le singole schede, e per filtrare velocemente 
 <div class="legend"><span class="c-ok">V verde</span> = soddisfatto &middot; <span class="c-warn">X giallo</span> = manca, ma recuperabile &middot; <span class="c-no">X rosso</span> = non soddisfatto &middot; nome cliccabile = scheda disponibile in fondo alla pagina</div>
 <div class="filters" id="filters">
 <button data-f="all" aria-pressed="true">Tutte (40)</button>
-<button data-f="amm-ok" aria-pressed="false">Ammissibili (21)</button>
-<button data-f="amm-warn" aria-pressed="false">Con integrazioni (5)</button>
+<button data-f="amm-ok" aria-pressed="false">Ammissibili (23)</button>
+<button data-f="amm-warn" aria-pressed="false">Con integrazioni (3)</button>
 <button data-f="amm-no" aria-pressed="false">Non ammissibili (6)</button>
 <button data-f="amm-null" aria-pressed="false" title="Non hanno completato in tempo la candidatura">Incomplete (8)</button>
 <button data-f="sf-01" aria-pressed="false">Sfida 01 (14)</button>
@@ -303,7 +303,7 @@ un'idea d'insieme prima di aprire le singole schede, e per filtrare velocemente 
 <tr data-amm='ok' data-sf='01'><td class='num'>26</td><td class='nm'><a href='#d26' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>WeavAir</a></td><td>Varsavia, Polonia</td><td>Startup</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
 <tr data-amm='null' data-sf='x'><td class='num'>27</td><td class='nm'>Edenforge12</td><td>Non dichiarata</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
 <tr data-amm='no' data-sf='x'><td class='num'>28</td><td class='nm'>Edile</td><td>Napoli, Italia</td><td>Innovatori indipendenti</td><td>Ricerca in corso</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
-<tr data-amm='warn' data-sf='01'><td class='num'>29</td><td class='nm'>Plantvoice</td><td>Bolzano, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>29</td><td class='nm'>Plantvoice</td><td>Bolzano, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V*</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile*</span></td></tr>
 <tr data-amm='no' data-sf='x'><td class='num'>30</td><td class='nm'>Zerowire</td><td>L&#x27;Aquila, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
 <tr data-amm='null' data-sf='x'><td class='num'>31</td><td class='nm'>glossgo</td><td>San Francisco, Stati Uniti / Istanbul</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
 <tr data-amm='null' data-sf='02'><td class='num'>32</td><td class='nm'>Surplus AI</td><td>Londra, Regno Unito</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
@@ -311,28 +311,18 @@ un'idea d'insieme prima di aprire le singole schede, e per filtrare velocemente 
 <tr data-amm='null' data-sf='x'><td class='num'>34</td><td class='nm'>VITI Agro Resource</td><td>Kaoma, Zambia</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
 <tr data-amm='null' data-sf='x'><td class='num'>35</td><td class='nm'>Prodigy AI Solutions</td><td>Bologna, Italia</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
 <tr data-amm='null' data-sf='01'><td class='num'>36</td><td class='nm'>JAoT</td><td>Milano, Italia</td><td>Innovatori indipendenti</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
-<tr data-amm='warn' data-sf='01'><td class='num'>37</td><td class='nm'><a href='#d37' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>EdenForge</a></td><td>Roma, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>37</td><td class='nm'><a href='#d37' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>EdenForge</a></td><td>Roma, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
 <tr data-amm='null' data-sf='x'><td class='num'>38</td><td class='nm'>crtaa</td><td>Non dichiarata (dominio .dz, Algeria)</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
 <tr data-amm='warn' data-sf='03'><td class='num'>39</td><td class='nm'>MOOVET DXC</td><td>Lodi, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Prototipo in campo</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
 <tr data-amm='no' data-sf='x'><td class='num'>40</td><td class='nm'>Pantha Rhei</td><td>Zaltbommel, Paesi Bassi</td><td>Innovatori indipendenti</td><td>Sul mercato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
 </tbody></table></div>
 <p class="note" style="font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin-top:10px;letter-spacing:.03em">
-Sfida effettiva: dichiarata alla domanda 7 o corretta in base al contenuto di D8/D9 &middot; NDA, Disponibilita e Perimetro: i tre criteri che piu spesso escludono una candidatura altrimenti valida.</p>
+Sfida effettiva: dichiarata alla domanda 7 o corretta in base al contenuto di D8/D9 &middot; NDA, Disponibilita e Perimetro: i tre criteri che piu spesso escludono una candidatura altrimenti valida. &middot; * Plantvoice: NDA nella versione standard rifiutato dal candidato, che ha firmato una propria versione alternativa &mdash; ora in verifica da parte nostra e in attesa della nostra controfirma; considerata ammissibile in via preliminare, da confermare a firma completata.</p>
 </section>
 
 
-<section id="azioni"><div class="sec-head"><span class="sec-num">03</span><h2>Che cosa fare adesso</h2></div>
-<ol class="actions">
-<li><b>Chiudere i 14 "In Progress"</b> entro inizio ottobre &mdash; manca l'NDA a tutti. 5 recuperabili: EdenForge, Plantvoice, MOOVET DXC, Space 11, JAoT.</li>
-<li><b>Risolvere le 3 disponibilita negate</b> (MicrogreensFOODS, Vigna Agrivoltaica, Pantha Rhei) prima di valutarle nel merito.</li>
-<li><b>Valutare insieme il cluster "digital twin"</b>: CosmoSPROUT, pjp industries, In4agri, AgriSnapp, WeavAir &mdash; stessa architettura.</li>
-<li><b>Valutare insieme il cluster nutraceutico Roma</b>: iMINT-Lab, LUMEN-IS, FoodForge, PharmaPlant.</li>
-<li><b>Decidere come coprire la Sfida 04</b>: solo 3 candidature, nessuna con competenza agronomica.</li>
-<li><b>Chiarire il perimetro nella prossima call</b>: 6 candidature fuori scopo pur con proposte solide.</li>
-</ol>
-</section>
-<section id="dossier"><div class="sec-head"><span class="sec-num">04</span><h2>Le candidature in dettaglio</h2></div>
-<p class="lede">Una scheda per ciascuna delle 21 candidature ammissibili piu EdenForge, con tutte le informazioni utili
+<section id="dossier"><div class="sec-head"><span class="sec-num">03</span><h2>Le candidature in dettaglio</h2></div>
+<p class="lede">Una scheda per ciascuna delle 22 candidature con dossier disponibile (le altre ammissibili, tra cui Plantvoice, sono riepilogate nella mappa qui sopra), con tutte le informazioni utili
 per valutarle una per una: dati anagrafici, la sfida scelta, il bisogno che affrontano, la soluzione proposta,
 le tecnologie usate e l'esito sui sei criteri. Clic sul nome per aprirla e leggerla per intero.</p>
 <details class="dossier" id="d1">
@@ -751,14 +741,14 @@ le tecnologie usate e l'esito sui sei criteri. Clic sul nome per aprirla e legge
 
 <details class="dossier" id="d37">
 <summary class="dossier-head"><span class="idx">37</span><h3>EdenForge</h3>
-<span class="pill sf1">01 Serra che Pensa</span><span class="pill warn">Ammissibile con integrazioni</span></summary>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
 
 <div class="facts">
 <div><span>Sede</span>Roma, Italia</div>
 <div><span>Tipologia</span>Startup</div>
 <div><span>Team dichiarato</span>4</div>
 <div><span>Stadio</span>Soluzione gia in uso o sul mercato</div>
-<div><span>Stato F6S</span>In Progress &middot; NDA mancante</div>
+<div><span>Stato F6S</span>In Progress &middot; NDA firmato ricevuto</div>
 <div><span>Presenza al Campus</span>Si</div>
 </div>
 <div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
@@ -766,14 +756,14 @@ le tecnologie usate e l'esito sui sei criteri. Clic sul nome per aprirla e legge
 <div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">L&#x27;agricoltura in ambiente controllato ha un problema di produttivita nascosto dietro la tecnologia: gli impianti sono pieni di sensori, valvole, gruppi di dosaggio e computer climatici, ma l&#x27;intelligenza che li tiene insieme resta nella testa di una persona, e resa, qualita e costo energetico dipendono dall&#x27;esperienza dell&#x27;agronomo presente in quel sito. La risposta del mercato finora e stata vendere un nuovo sistema di controllo, smantellando un&#x27;automazione funzionante e vincolandosi a un solo fornitore. EdenForge parte dall&#x27;estremo opposto: dare a una serra o vertical farm esistente un livello decisionale adottabile, che si innesta sull&#x27;automazione gia installata, impara dai dati di quel singolo impianto anziche da un modello colturale generico, continua a lavorare in locale quando la connettivita cade e gestisce la nutrizione con lo stesso rigore del clima. Il Climate Hub e un&#x27;unita a parete IP-rated che si collega via Modbus, OPC-UA, 0-10 V, 4-20 mA e uscite relay, con scheduling multi-zona e fallback locale.</div></div>
 <div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
 <div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Energy management</span><span class="chip">Piattaforme software / DSS</span></div>
-<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill no">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div><div class="flag">Il candidato segnala di non riuscire a caricare l&#x27;NDA firmato e di non ricevere risposta sulla piattaforma; pagina F6S precedente cancellata e ricreata. Da gestire prima di qualunque esclusione formale.</div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
 </details>
 
 
 
 </section>
 
-<footer class="wrap">Panoramica generata sui dati della pipeline F6S del gruppo V.I.T.A. &middot; 40 candidature &middot; dati al 22 settembre 2026</footer>
+<footer class="wrap">Panoramica generata sui dati della pipeline F6S del gruppo V.I.T.A. &middot; 40 candidature &middot; dati al 23 settembre 2026</footer>
 </div>
 <script>
 (function(){
