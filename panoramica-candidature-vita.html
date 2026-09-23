@@ -1,0 +1,795 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Panoramica F6S delle 40 candidature V.I.T.A. 2026: ammissibilita, match con le quattro sfide e mappa delle tecnologie.">
+<title>V.I.T.A. — Resoconto candidature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{--bg:#f1f4f2;--surface:#fff;--surface-2:#e8edea;--surface-3:#dde5e0;--ink:#0f1714;--ink-2:#4d5e58;--ink-3:#77877f;
+--line:#d5dfda;--line-2:#c2cfc8;--accent:#0c6a56;--accent-2:#0a5445;--accent-wash:#e0efe9;--gold:#8a5d10;--gold-wash:#f4ecd9;
+--red:#8c2f22;--red-wash:#f6e4e0;--c1:#0c6a56;--c2:#3f927a;--c3:#8a5d10;--c4:#3b5c86;--c0:#9aa8a2;
+--mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--body:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+--disp:"Newsreader",Georgia,"Times New Roman",serif;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0f0d;--surface:#111916;--surface-2:#18221e;--surface-3:#1f2b26;
+--ink:#e7edea;--ink-2:#9dafa8;--ink-3:#77887f;--line:#22302b;--line-2:#2d3d37;--accent:#4ac4a3;--accent-2:#69d6b8;--accent-wash:#12312a;
+--gold:#d6a54c;--gold-wash:#2b2214;--red:#e0796a;--red-wash:#331914;--c1:#4ac4a3;--c2:#3ba488;--c3:#d6a54c;--c4:#7fa6d9;--c0:#5c6b65;}}
+:root[data-theme="dark"]{--bg:#0a0f0d;--surface:#111916;--surface-2:#18221e;--surface-3:#1f2b26;--ink:#e7edea;--ink-2:#9dafa8;--ink-3:#77887f;
+--line:#22302b;--line-2:#2d3d37;--accent:#4ac4a3;--accent-2:#69d6b8;--accent-wash:#12312a;--gold:#d6a54c;--gold-wash:#2b2214;
+--red:#e0796a;--red-wash:#331914;--c1:#4ac4a3;--c2:#3ba488;--c3:#d6a54c;--c4:#7fa6d9;--c0:#5c6b65;}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.62;-webkit-font-smoothing:antialiased;margin:0}
+.wrap{max-width:1140px;margin:0 auto;padding-inline:20px}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:600;text-wrap:balance;margin:0;line-height:1.18;letter-spacing:-.012em}
+h3{font-size:18px}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:2px}
+.topbar{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar-in{max-width:1140px;margin:0 auto;padding:10px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.brand{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.brand b{color:var(--ink);font-weight:600}
+.topnav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+.topnav a{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);text-decoration:none;padding:5px 9px;border-radius:5px}
+.topnav a:hover{background:var(--surface-2);color:var(--ink)}
+.hero{padding-block:54px 38px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+.hero h1{font-size:clamp(32px,5.4vw,54px);letter-spacing:-.025em}
+.hero .sub{margin-top:18px;font-size:17px;color:var(--ink-2)}
+.meta-row{margin-top:22px;display:flex;gap:10px 26px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--ink-3);text-transform:uppercase}
+.meta-row b{color:var(--ink-2);font-weight:500}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:30px}
+.kpi{background:var(--surface);padding:18px;border-left:3px solid transparent}
+.kpi-ok{border-left-color:var(--accent)}.kpi-ok .n{color:var(--accent-2)}
+.kpi-warn{border-left-color:var(--gold)}.kpi-warn .n{color:var(--gold)}
+.kpi-no{border-left-color:var(--red)}.kpi-no .n{color:var(--red)}
+.kpi-null{border-left-color:var(--ink-3)}.kpi-null .n{color:var(--ink-3)}
+.kpi .n{font-family:var(--disp);font-size:36px;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.kpi .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-top:9px}
+.kpi .d{font-size:13px;color:var(--ink-2);margin-top:5px}
+@media(max-width:820px){.kpis{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:430px){.kpis{grid-template-columns:1fr}}
+.kpis-5{grid-template-columns:repeat(5,1fr);margin-top:0}
+@media(max-width:960px){.kpis-5{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.kpis-5{grid-template-columns:repeat(2,1fr)}}
+section{padding-block:48px;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:6px}
+.sec-num{font-family:var(--mono);font-size:11px;color:var(--accent);letter-spacing:.1em}
+h2{font-size:clamp(22px,2.8vw,28px)}
+.lede{margin-top:12px;font-size:16px;color:var(--ink-2)}
+.body-col p+p{margin-top:13px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px}
+.card .note{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin-top:5px;letter-spacing:.03em;line-height:1.5}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+@media(max-width:880px){.grid2{grid-template-columns:1fr}}
+.hbars{margin-top:18px;display:flex;flex-direction:column;gap:8px}
+.hrow{display:grid;grid-template-columns:190px 1fr 30px;gap:10px;align-items:center;font-size:13px}
+.hrow .lb{color:var(--ink-2);line-height:1.32}
+.hrow .tr{display:block;background:var(--surface-3);border-radius:4px;height:14px;overflow:hidden}
+.hrow .fl{display:block;height:100%;background:var(--accent);border-radius:4px}
+.hrow .vv{font-family:var(--mono);font-size:11.5px;color:var(--ink-2);text-align:right;font-variant-numeric:tabular-nums}
+.hrow.s1 .fl{background:var(--c1)}.hrow.s2 .fl{background:var(--c2)}.hrow.s3 .fl{background:var(--c3)}.hrow.s4 .fl{background:var(--c4)}.hrow.s0 .fl{background:var(--c0)}
+@media(max-width:560px){.hrow{grid-template-columns:130px 1fr 28px;font-size:12px}}
+.tbl-wrap{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-align:left;padding:11px 12px;border-bottom:1px solid var(--line-2);white-space:nowrap;background:var(--surface-2)}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--surface-2)}
+td.num,th.num{text-align:center;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.nm{font-weight:600}
+.pill{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;padding:3px 7px;border-radius:99px;white-space:nowrap;border:1px solid var(--line-2);color:var(--ink-2);background:var(--surface-2)}
+.pill.ok{background:var(--accent-wash);color:var(--accent-2);border-color:transparent}
+.pill.warn{background:var(--gold-wash);color:var(--gold);border-color:transparent}
+.pill.no{background:var(--red-wash);color:var(--red);border-color:transparent}
+.pill.null{background:var(--surface-3);color:var(--ink-3);border-color:transparent}
+.pill.sf1{background:var(--accent-wash);color:var(--accent-2);border-color:transparent}
+.pill.sf2{background:#e8eddf;color:#4a6321;border-color:transparent}
+.pill.sf3{background:var(--gold-wash);color:var(--gold);border-color:transparent}
+.pill.sf4{background:#e2e8f2;color:#3b5c86;border-color:transparent}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .pill.sf2{background:#1e2a16;color:#a8c97a}
+:root:not([data-theme="light"]) .pill.sf4{background:#16203063;color:#7fa6d9}}
+.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
+.chip{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--line);padding:3px 7px;border-radius:5px}
+.sfida-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:26px}
+@media(max-width:880px){.sfida-cards{grid-template-columns:1fr}}
+.sfida-card{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:18px 20px}
+.sfida-card.s2{border-left-color:#7a9c3d}.sfida-card.s3{border-left-color:var(--gold)}.sfida-card.s4{border-left-color:#3b5c86}
+.sfida-card .num{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+.sfida-card h3{margin-top:4px}
+.sfida-card .tags{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.05em;margin-top:6px;text-transform:uppercase}
+.sfida-card p{margin-top:10px;font-size:14.5px;color:var(--ink-2)}
+.sfida-card .cnt{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap}
+.sfida-card .cnt div{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)}
+.sfida-card .cnt b{display:block;font-family:var(--disp);font-size:26px;color:var(--ink);letter-spacing:-.02em;line-height:1.1}
+.matrix{overflow-x:auto;margin-top:24px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.matrix td.hm{text-align:center;font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500}
+.hm0{color:var(--ink-3)}
+.hm1{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.hm2{background:color-mix(in srgb,var(--accent) 26%,transparent)}
+.hm3{background:color-mix(in srgb,var(--accent) 44%,transparent);color:var(--ink)}
+.hm4{background:color-mix(in srgb,var(--accent) 66%,transparent);color:#fff}
+.dossier{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px;margin-top:16px}
+.dossier-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+summary.dossier-head{cursor:pointer;list-style:none;padding-right:26px;position:relative}
+summary.dossier-head::-webkit-details-marker{display:none}
+summary.dossier-head::after{content:'+';position:absolute;right:0;top:0;font-family:var(--mono);color:var(--ink-3);font-size:16px}
+details[open] summary.dossier-head::after{content:'\2212'}
+details.dossier .facts{margin-top:14px}
+.actions{margin-top:16px;padding-left:22px}
+.actions li{margin-top:12px;font-size:16px;line-height:1.55;color:var(--ink-2)}
+.actions li b{color:var(--ink)}
+.panorama-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;margin-top:20px;align-items:stretch}
+@media(max-width:820px){.panorama-grid{grid-template-columns:1fr;gap:20px}}
+.insights-card{display:flex;flex-direction:column;justify-content:center}
+.insights{list-style:none;margin:0;padding-left:0}
+.insights li{margin-top:10px;font-size:16px;line-height:1.55;color:var(--ink-2)}
+.insights li:first-child{margin-top:0}
+.insights li b{color:var(--ink)}
+.kpis-side{display:flex;flex-direction:column;gap:10px;justify-content:space-between}
+.kpis-side .kpi{border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;align-items:baseline;gap:12px}
+.kpis-side .kpi .n{margin-right:2px}
+.kpis-side .kpi .k{margin-top:0}
+.dossier-head .idx{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px 18px;margin-top:14px;padding-block:12px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{font-size:13.5px;color:var(--ink)}
+.facts span{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.qa{margin-top:14px}
+.qa .q{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.qa .a{font-size:14.5px;color:var(--ink-2);line-height:1.6}
+.qa+.qa{margin-top:14px}
+.flag{margin-top:14px;padding:11px 13px;border-radius:8px;background:var(--gold-wash);color:var(--gold);font-size:13.5px;line-height:1.5}
+.checks{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-top:22px}
+.filters button{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;padding:6px 11px;border-radius:99px;border:1px solid var(--line-2);background:var(--surface);color:var(--ink-2);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+footer{padding-block:34px 60px;color:var(--ink-3);font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.hidden{display:none!important}
+.legend{margin-top:20px;font-size:12.5px;color:var(--ink-2);display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center}
+.legend .c-ok,.legend .c-warn,.legend .c-no{font-family:var(--mono);font-size:11px;letter-spacing:.02em}
+tr.grp td{background:var(--surface-2);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding:9px 12px;border-bottom:1px solid var(--line-2)}
+tr.grp .grp-n{margin-left:10px;color:var(--ink-3);text-transform:none;letter-spacing:.02em;font-size:11.5px}
+.miss{margin-top:4px;font-family:var(--mono);font-size:10px;letter-spacing:.03em;color:var(--gold);text-transform:none}
+.c-ok,.c-warn,.c-no{display:inline-block;min-width:18px;padding:1px 6px;border-radius:4px;font-weight:700}
+.c-ok{background:var(--accent-wash);color:var(--accent-2)}
+.c-warn{background:var(--gold-wash);color:var(--gold)}
+.c-no{background:var(--red-wash);color:var(--red)}
+.sub-head{margin-top:30px}
+.sub-lede{margin-top:6px;font-size:16px;color:var(--ink-2)}
+.synth{margin-top:18px;font-size:16px;color:var(--ink-2);line-height:1.6}
+.synth-muted{margin-top:18px;font-size:16px;color:var(--ink-3);line-height:1.6}
+@media print{
+@page{size:A4;margin:16mm 14mm}
+html,body{background:#fff}
+.wrap{max-width:none;padding-inline:0}
+.topbar,.filters,footer{display:none}
+section{padding-block:22px;border-bottom:1px solid var(--line);break-inside:avoid-page}
+.dossier,.card,.sfida-card{break-inside:avoid-page}
+.tbl-wrap,.matrix{overflow-x:visible}
+table{font-size:11.5px}
+a{color:inherit;text-decoration:none}
+}
+</style></head><body>
+<div class="topbar"><div class="topbar-in">
+<div class="brand"><b>V.I.T.A.</b> &nbsp;/&nbsp; Resoconto candidature</div>
+<nav class="topnav">
+<a href="#metriche">Metriche</a><a href="#ammiss">Mappa</a><a href="#azioni">Azioni</a><a href="#dossier">Schede</a>
+</nav></div></div>
+
+<div class="wrap"><header class="hero">
+<h1>Resoconto candidature per il programma V.I.T.A.</h1>
+<p class="sub">Il documento raccoglie i punti chiave e i numeri delle 40 candidature ricevute su F6S, la mappa completa con l'esito di ciascuna, le priorita operative per la selezione e, in fondo, le schede di dettaglio delle candidature ammissibili.</p>
+<div class="meta-row"><span>Come leggere: <b>numeri</b> &rarr; <b>tabella</b> &rarr; <b>dettaglio</b></span></div>
+</header>
+<section id="metriche"><div class="sec-head"><span class="sec-num">01</span><h2>Panoramica &mdash; Key insights</h2></div>
+<div class="panorama-grid">
+<div class="card insights-card">
+<ul class="insights">
+<li><b>26 candidature</b> hanno contenuto completo e sono selezionabili: <b>21</b> senza condizioni, <b>5</b> in attesa di un'integrazione (indicata riga per riga in tabella).</li>
+<li><b>6</b> candidature sono fuori perimetro, <b>8</b> non hanno completato in tempo la candidatura.</li>
+<li><b>14 su 40</b> puntano sulla Serra che Pensa, solo <b>3</b> sull'Energia &mdash; sfida sbilanciata.</li>
+<li><b>Vigna Agrivoltaica di Comunita</b> ha dichiarato la sfida sbagliata: corretta in tabella da Energia a Natura.</li>
+</ul>
+</div>
+<div class="kpis-side">
+<div class="kpi"><div class="n">40</div><div class="k">Candidature totali</div></div>
+<div class="kpi kpi-ok"><div class="n">21</div><div class="k">Ammissibili</div></div>
+<div class="kpi kpi-warn"><div class="n">5</div><div class="k">Con integrazioni</div></div>
+<div class="kpi kpi-no"><div class="n">6</div><div class="k">Non ammissibili</div></div>
+<div class="kpi kpi-null"><div class="n">8</div><div class="k">Incomplete</div></div>
+</div>
+</div>
+<h3 class="sub-head">Candidati raggruppati per sfida</h3>
+<p class="sub-lede">Le quattro sfide del programma, con il numero di candidature che lavorano su ciascuna.</p>
+<div class="sfida-cards"><div class="sfida-card s1"><div class="num">SFIDA 01</div><h3>La Serra che Pensa</h3>
+<div class="tags">Digitale · Automazione · AI</div><p>Rendere la serra autonoma e predittiva con IIoT, digital twin e AI.</p>
+<p style="font-size:13px;color:var(--ink-3);margin-top:8px"><b>Asset messi a disposizione:</b> PLC, rete di sensori, pompe e valvole, storico operativo</p>
+<div class="cnt"><div><b>14</b>candidature</div><div><b>12</b>ammissibili</div><div><b>13</b>sfida dichiarata</div></div></div><div class="sfida-card s2"><div class="num">SFIDA 02</div><h3>Alimentazione sostenibile &amp; Novel Food</h3>
+<div class="tags">Nutrizione · Filiere · Novel Food</div><p>Colture ad alto valore, novel food e superfood in ambiente controllato.</p>
+<p style="font-size:13px;color:var(--ink-3);margin-top:8px"><b>Asset messi a disposizione:</b> acquaponica, idroponica floating, fitotroni</p>
+<div class="cnt"><div><b>5</b>candidature</div><div><b>4</b>ammissibili</div><div><b>5</b>sfida dichiarata</div></div></div><div class="sfida-card s3"><div class="num">SFIDA 03</div><h3>La natura aiuta</h3>
+<div class="tags">Biomolecole · Nutraceutica · One Health</div><p>Coltivare piante officinali ed estrarre biomolecole per la salute umana.</p>
+<p style="font-size:13px;color:var(--ink-3);margin-top:8px"><b>Asset messi a disposizione:</b> camere fitotroniche, idroponica</p>
+<div class="cnt"><div><b>7</b>candidature</div><div><b>7</b>ammissibili</div><div><b>9</b>sfida dichiarata</div></div></div><div class="sfida-card s4"><div class="num">SFIDA 04</div><h3>Energia dell&#x27;impianto</h3>
+<div class="tags">Energia · Storage · Resilienza</div><p>Massimizzare il rinnovabile e ridurre la dipendenza dalla rete elettrica.</p>
+<p style="font-size:13px;color:var(--ink-3);margin-top:8px"><b>Asset messi a disposizione:</b> impianto fotovoltaico, carichi della serra, dati di consumo</p>
+<div class="cnt"><div><b>3</b>candidature</div><div><b>3</b>ammissibili</div><div><b>5</b>sfida dichiarata</div></div></div></div>
+<div class="grid2" style="margin-top:28px">
+<div class="card"><h3>Tipologia di candidato</h3>
+<div class="note">Chi ha partecipato &middot; 3 candidature non lo dichiarano</div>
+<div class="hbars"><div class="hrow "><span class="lb">Startup</span><span class="tr"><span class="fl" style="width:100.0%"></span></span><span class="vv">18</span></div>
+<div class="hrow "><span class="lb">Innovatori indipendenti</span><span class="tr"><span class="fl" style="width:38.9%"></span></span><span class="vv">7</span></div>
+<div class="hrow "><span class="lb">Team universitario o studenti</span><span class="tr"><span class="fl" style="width:33.3%"></span></span><span class="vv">6</span></div>
+<div class="hrow "><span class="lb">Gruppo di ricerca o spin-off</span><span class="tr"><span class="fl" style="width:27.8%"></span></span><span class="vv">5</span></div>
+<div class="hrow "><span class="lb">Non dichiarata</span><span class="tr"><span class="fl" style="width:16.7%"></span></span><span class="vv">3</span></div>
+<div class="hrow "><span class="lb">Altro</span><span class="tr"><span class="fl" style="width:5.6%"></span></span><span class="vv">1</span></div></div></div>
+<div class="card"><h3>Stadio di maturita</h3>
+<div class="note">A che punto e la soluzione proposta &middot; 7 candidature non lo dichiarano</div>
+<div class="hbars"><div class="hrow "><span class="lb">Sul mercato</span><span class="tr"><span class="fl" style="width:88.9%"></span></span><span class="vv">8</span></div>
+<div class="hrow "><span class="lb">Prototipo in campo</span><span class="tr"><span class="fl" style="width:77.8%"></span></span><span class="vv">7</span></div>
+<div class="hrow "><span class="lb">Prototipo in lab</span><span class="tr"><span class="fl" style="width:55.6%"></span></span><span class="vv">5</span></div>
+<div class="hrow "><span class="lb">Ricerca in corso</span><span class="tr"><span class="fl" style="width:44.4%"></span></span><span class="vv">4</span></div>
+<div class="hrow "><span class="lb">Idea o concept</span><span class="tr"><span class="fl" style="width:100.0%"></span></span><span class="vv">9</span></div>
+<div class="hrow "><span class="lb">Non dichiarato</span><span class="tr"><span class="fl" style="width:77.8%"></span></span><span class="vv">7</span></div></div></div>
+
+<div class="card"><h3>Quante candidature per tecnologia</h3>
+<div class="note">Le tecnologie piu citate nelle proposte &middot; su 30 candidature con proposta leggibile</div>
+<div class="hbars"><div class="hrow "><span class="lb">AI / Machine Learning</span><span class="tr"><span class="fl" style="width:100.0%"></span></span><span class="vv">21</span></div>
+<div class="hrow "><span class="lb">IoT e sensoristica</span><span class="tr"><span class="fl" style="width:81.0%"></span></span><span class="vv">17</span></div>
+<div class="hrow "><span class="lb">Piattaforme software / DSS</span><span class="tr"><span class="fl" style="width:66.7%"></span></span><span class="vv">14</span></div>
+<div class="hrow "><span class="lb">Coltivazione in ambiente controllato</span><span class="tr"><span class="fl" style="width:52.4%"></span></span><span class="vv">11</span></div>
+<div class="hrow "><span class="lb">Digital twin</span><span class="tr"><span class="fl" style="width:42.9%"></span></span><span class="vv">9</span></div>
+<div class="hrow "><span class="lb">Biotech e biomolecole</span><span class="tr"><span class="fl" style="width:38.1%"></span></span><span class="vv">8</span></div>
+<div class="hrow "><span class="lb">Energy management</span><span class="tr"><span class="fl" style="width:28.6%"></span></span><span class="vv">6</span></div>
+<div class="hrow "><span class="lb">Illuminazione orticola LED</span><span class="tr"><span class="fl" style="width:28.6%"></span></span><span class="vv">6</span></div>
+<div class="hrow "><span class="lb">Computer vision e imaging</span><span class="tr"><span class="fl" style="width:23.8%"></span></span><span class="vv">5</span></div>
+<div class="hrow "><span class="lb">Estrazione e chimica analitica</span><span class="tr"><span class="fl" style="width:23.8%"></span></span><span class="vv">5</span></div>
+<div class="hrow "><span class="lb">Robotica e automazione</span><span class="tr"><span class="fl" style="width:19.0%"></span></span><span class="vv">4</span></div>
+<div class="hrow "><span class="lb">Osservazione della Terra</span><span class="tr"><span class="fl" style="width:14.3%"></span></span><span class="vv">3</span></div></div></div>
+<div class="card"><h3>Quante candidature per sfida</h3>
+<div class="note">Quante candidature per ciascuna sfida &middot; corretta quando il contenuto non coincide col dichiarato</div>
+<div class="hbars"><div class="hrow s1"><span class="lb">La Serra che Pensa</span><span class="tr"><span class="fl" style="width:100.0%"></span></span><span class="vv">14</span></div>
+<div class="hrow s2"><span class="lb">Alimentazione sostenibile &amp; Novel Food</span><span class="tr"><span class="fl" style="width:35.7%"></span></span><span class="vv">5</span></div>
+<div class="hrow s3"><span class="lb">La natura aiuta</span><span class="tr"><span class="fl" style="width:50.0%"></span></span><span class="vv">7</span></div>
+<div class="hrow s4"><span class="lb">Energia dell&#x27;impianto</span><span class="tr"><span class="fl" style="width:21.4%"></span></span><span class="vv">3</span></div>
+<div class="hrow s0"><span class="lb">Nessuna sfida assegnabile</span><span class="tr"><span class="fl" style="width:78.6%"></span></span><span class="vv">11</span></div></div></div>
+</div>
+</section>
+<section id="ammiss"><div class="sec-head"><span class="sec-num">02</span><h2>Mappa e criteri di ammissibilita</h2></div>
+<p class="lede">Tutte le 40 candidature in un unico colpo d'occhio: chi sono, su quale sfida lavorano e se rispettano
+i sei requisiti del bando (tipologia, sfida, proposta, NDA, disponibilita, perimetro). Serve per farsi
+un'idea d'insieme prima di aprire le singole schede, e per filtrare velocemente per esito o per sfida.</p>
+<div class="legend"><span class="c-ok">V verde</span> = soddisfatto &middot; <span class="c-warn">X giallo</span> = manca, ma recuperabile &middot; <span class="c-no">X rosso</span> = non soddisfatto &middot; nome cliccabile = scheda disponibile in fondo alla pagina</div>
+<div class="filters" id="filters">
+<button data-f="all" aria-pressed="true">Tutte (40)</button>
+<button data-f="amm-ok" aria-pressed="false">Ammissibili (21)</button>
+<button data-f="amm-warn" aria-pressed="false">Con integrazioni (5)</button>
+<button data-f="amm-no" aria-pressed="false">Non ammissibili (6)</button>
+<button data-f="amm-null" aria-pressed="false" title="Non hanno completato in tempo la candidatura">Incomplete (8)</button>
+<button data-f="sf-01" aria-pressed="false">Sfida 01 (14)</button>
+<button data-f="sf-02" aria-pressed="false">Sfida 02 (5)</button>
+<button data-f="sf-03" aria-pressed="false">Sfida 03 (7)</button>
+<button data-f="sf-04" aria-pressed="false">Sfida 04 (3)</button>
+</div>
+<div class="tbl-wrap"><table id="idx">
+<thead><tr><th class="num">#</th><th>Candidatura</th><th>Sede</th><th>Tipologia</th><th>Stadio</th><th>Sfida effettiva</th><th class="num">NDA</th><th class="num">Disponibilita</th><th class="num">Perimetro</th><th>Esito</th></tr></thead>
+<tbody>
+<tr data-amm='ok' data-sf='04'><td class='num'>01</td><td class='nm'><a href='#d1' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Smart Domotics</a></td><td>Faenza (RA), Italia</td><td>Altro</td><td>Sul mercato</td><td><span class="pill sf4">04 Energia</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>02</td><td class='nm'><a href='#d2' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Pecus Chain</a></td><td>Benevento, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='04'><td class='num'>03</td><td class='nm'><a href='#d3' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>FlexyGrid (Team AgriFlex)</a></td><td>Bolzano / Roma, Italia</td><td>Startup</td><td>Prototipo in lab</td><td><span class="pill sf4">04 Energia</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='03'><td class='num'>04</td><td class='nm'><a href='#d4' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Moka Bio</a></td><td>Buenos Aires, Argentina</td><td>Startup</td><td>Prototipo in lab</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>05</td><td class='nm'>Agro Nova (Tural Manafov)</td><td>Baku, Azerbaijan</td><td>Team universitario o studenti</td><td>Prototipo in campo</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>06</td><td class='nm'><a href='#d6' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>planTeMaG</a></td><td>Portici (NA), Italia</td><td>Team universitario o studenti</td><td>Ricerca in corso</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='04'><td class='num'>07</td><td class='nm'><a href='#d7' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>ArcoLab (SAGE)</a></td><td>Roma, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Ricerca in corso</td><td><span class="pill sf4">04 Energia</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='03'><td class='num'>08</td><td class='nm'><a href='#d8' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>iMINT-Lab</a></td><td>Roma, Italia</td><td>Innovatori indipendenti</td><td>Idea o concept</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>09</td><td class='nm'><a href='#d9' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>CosmoSPROUT</a></td><td>Roma, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Idea o concept</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>10</td><td class='nm'><a href='#d10' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>pjp industries (LoopProof)</a></td><td>Ankara, Turchia (team distribuito)</td><td>Innovatori indipendenti</td><td>Idea o concept</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='02'><td class='num'>11</td><td class='nm'><a href='#d11' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>FoodForge</a></td><td>Roma, Italia</td><td>Team universitario o studenti</td><td>Idea o concept</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>12</td><td class='nm'><a href='#d12' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Agrisolana</a></td><td>Assisi (PG), Italia</td><td>Innovatori indipendenti</td><td>Prototipo in lab</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='02'><td class='num'>13</td><td class='nm'><a href='#d13' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>SPROWER</a></td><td>Castelfranco Veneto (TV), Italia</td><td>Startup</td><td>Prototipo in lab</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>14</td><td class='nm'><a href='#d14' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>E:DEN</a></td><td>Cecina (LI), Italia</td><td>Startup</td><td>Ricerca in corso</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='warn' data-sf='02'><td class='num'>15</td><td class='nm'>MicrogreensFOODS</td><td>Asti, Italia</td><td>Innovatori indipendenti</td><td>Idea o concept</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: disponibilita in presenza</div></td></tr>
+<tr data-amm='ok' data-sf='03'><td class='num'>16</td><td class='nm'><a href='#d16' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>LUMEN-IS</a></td><td>Roma, Italia</td><td>Team universitario o studenti</td><td>Idea o concept</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>17</td><td class='nm'><a href='#d17' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>In4agri</a></td><td>Parma, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='warn' data-sf='03'><td class='num'>18</td><td class='nm'>Vigna Agrivoltaica di Comunita</td><td>Laterza (TA), Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: disponibilita in presenza</div></td></tr>
+<tr data-amm='ok' data-sf='03'><td class='num'>19</td><td class='nm'><a href='#d19' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Voila srl (DynaLed)</a></td><td>Latina, Italia</td><td>Startup</td><td>Prototipo in lab</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>20</td><td class='nm'>Puno</td><td>Johannesburg, Sudafrica</td><td>Startup</td><td>Prototipo in campo</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='02'><td class='num'>21</td><td class='nm'><a href='#d21' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>Sweeft</a></td><td>Roma, Italia</td><td>Team universitario o studenti</td><td>Idea o concept</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='03'><td class='num'>22</td><td class='nm'><a href='#d22' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>PharmaPlant</a></td><td>Roma, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Idea o concept</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>23</td><td class='nm'>AlphaMind</td><td>Viterbo, Italia (societa negli USA)</td><td>Startup</td><td>Sul mercato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>24</td><td class='nm'><a href='#d24' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>AGRISKY</a></td><td>Roma, Italia</td><td>Startup</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>25</td><td class='nm'><a href='#d25' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>AgriSnapp</a></td><td>Roma, Italia</td><td>Team universitario o studenti</td><td>Idea o concept</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='ok' data-sf='01'><td class='num'>26</td><td class='nm'><a href='#d26' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>WeavAir</a></td><td>Varsavia, Polonia</td><td>Startup</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill ok'>Ammissibile</span></td></tr>
+<tr data-amm='null' data-sf='x'><td class='num'>27</td><td class='nm'>Edenforge12</td><td>Non dichiarata</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>28</td><td class='nm'>Edile</td><td>Napoli, Italia</td><td>Innovatori indipendenti</td><td>Ricerca in corso</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+<tr data-amm='warn' data-sf='01'><td class='num'>29</td><td class='nm'>Plantvoice</td><td>Bolzano, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>30</td><td class='nm'>Zerowire</td><td>L&#x27;Aquila, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+<tr data-amm='null' data-sf='x'><td class='num'>31</td><td class='nm'>glossgo</td><td>San Francisco, Stati Uniti / Istanbul</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='null' data-sf='02'><td class='num'>32</td><td class='nm'>Surplus AI</td><td>Londra, Regno Unito</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill sf2">02 Novel Food</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='null' data-sf='01'><td class='num'>33</td><td class='nm'>Space 11</td><td>Roma, Italia</td><td>Startup</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='null' data-sf='x'><td class='num'>34</td><td class='nm'>VITI Agro Resource</td><td>Kaoma, Zambia</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='null' data-sf='x'><td class='num'>35</td><td class='nm'>Prodigy AI Solutions</td><td>Bologna, Italia</td><td>Startup</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='null' data-sf='01'><td class='num'>36</td><td class='nm'>JAoT</td><td>Milano, Italia</td><td>Innovatori indipendenti</td><td>Prototipo in campo</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='warn' data-sf='01'><td class='num'>37</td><td class='nm'><a href='#d37' style='color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-2)'>EdenForge</a></td><td>Roma, Italia</td><td>Startup</td><td>Sul mercato</td><td><span class="pill sf1">01 Serra che Pensa</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
+<tr data-amm='null' data-sf='x'><td class='num'>38</td><td class='nm'>crtaa</td><td>Non dichiarata (dominio .dz, Algeria)</td><td>Non dichiarata</td><td>Non dichiarato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill null'>Incompleta</span></td></tr>
+<tr data-amm='warn' data-sf='03'><td class='num'>39</td><td class='nm'>MOOVET DXC</td><td>Lodi, Italia</td><td>Gruppo di ricerca o spin-off</td><td>Prototipo in campo</td><td><span class="pill sf3">03 La natura aiuta</span></td><td class='num'><span class='c-warn'>X</span></td><td class='num'><span class='c-ok'>V</span></td><td class='num'><span class='c-ok'>V</span></td><td><span class='pill warn'>Ammissibile con integrazioni</span><div class='miss'>Manca: NDA</div></td></tr>
+<tr data-amm='no' data-sf='x'><td class='num'>40</td><td class='nm'>Pantha Rhei</td><td>Zaltbommel, Paesi Bassi</td><td>Innovatori indipendenti</td><td>Sul mercato</td><td><span class="pill null">nessuna</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td class='num'><span class='c-no'>X</span></td><td><span class='pill no'>Non ammissibile</span></td></tr>
+</tbody></table></div>
+<p class="note" style="font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin-top:10px;letter-spacing:.03em">
+Sfida effettiva: dichiarata alla domanda 7 o corretta in base al contenuto di D8/D9 &middot; NDA, Disponibilita e Perimetro: i tre criteri che piu spesso escludono una candidatura altrimenti valida.</p>
+</section>
+
+
+<section id="azioni"><div class="sec-head"><span class="sec-num">03</span><h2>Che cosa fare adesso</h2></div>
+<ol class="actions">
+<li><b>Chiudere i 14 "In Progress"</b> entro inizio ottobre &mdash; manca l'NDA a tutti. 5 recuperabili: EdenForge, Plantvoice, MOOVET DXC, Space 11, JAoT.</li>
+<li><b>Risolvere le 3 disponibilita negate</b> (MicrogreensFOODS, Vigna Agrivoltaica, Pantha Rhei) prima di valutarle nel merito.</li>
+<li><b>Valutare insieme il cluster "digital twin"</b>: CosmoSPROUT, pjp industries, In4agri, AgriSnapp, WeavAir &mdash; stessa architettura.</li>
+<li><b>Valutare insieme il cluster nutraceutico Roma</b>: iMINT-Lab, LUMEN-IS, FoodForge, PharmaPlant.</li>
+<li><b>Decidere come coprire la Sfida 04</b>: solo 3 candidature, nessuna con competenza agronomica.</li>
+<li><b>Chiarire il perimetro nella prossima call</b>: 6 candidature fuori scopo pur con proposte solide.</li>
+</ol>
+</section>
+<section id="dossier"><div class="sec-head"><span class="sec-num">04</span><h2>Le candidature in dettaglio</h2></div>
+<p class="lede">Una scheda per ciascuna delle 21 candidature ammissibili piu EdenForge, con tutte le informazioni utili
+per valutarle una per una: dati anagrafici, la sfida scelta, il bisogno che affrontano, la soluzione proposta,
+le tecnologie usate e l'esito sui sei criteri. Clic sul nome per aprirla e leggerla per intero.</p>
+<details class="dossier" id="d1">
+<summary class="dossier-head"><span class="idx">01</span><h3>Smart Domotics</h3>
+<span class="pill sf4">04 Energia</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Faenza (RA), Italia</div>
+<div><span>Tipologia</span>Altro</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Soluzione gia in uso o sul mercato</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Energia dell&#x27;impianto</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Sistema energetico integrato dell&#x27;edificio che ottimizzi autoconsumo ed efficienti processi e centri di costo energetico. Assessment della tecnologia esistente dopo mappatura di consumi e produzioni, raccolta dati da fonti diverse su molti protocolli. Ricostruzione degli ultimi 18 mesi di consumo per valutare (anche con AI) margini di efficientamento senza hardware; hardware aggiunto solo se necessario. Obiettivo: digital twin energetico per ottimizzazione fotovoltaico-accumulo-consumi con energy management evoluto.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Dashboard di energy management multiprotocollo con AI che colletta dati da hw, sensori, PLC, database per creare alert e automazioni. Hardware in campo per monitoraggio consumi ove necessario. Raccolta dati da sensoristica gia installata, monitoraggio fotovoltaico integrato con previsioni meteo e analisi efficienza con AI. Approccio: capire processo e installato, cosa integrare e quali dati raccogliere per ottimizzare l&#x27;intero sistema energetico e di processo.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Energy management</span><span class="chip">IoT e sensoristica</span><span class="chip">AI / Machine Learning</span><span class="chip">Digital twin</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d2">
+<summary class="dossier-head"><span class="idx">02</span><h3>Pecus Chain</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Benevento, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>4</div>
+<div><span>Stadio</span>Soluzione gia in uso o sul mercato</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Stessa attivita gia svolta per aziende zootecniche (bovino da latte e bufalino): integrazione dei dati dei sensori in stalla e modelli predittivi per anticipare le patologie degli animali. Uso dell&#x27;AI per ottimizzare i workflow di stalla e digitalizzare attivita non ancora digitalizzate (cambi gruppi, inseminazioni, controlli).</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Integrazione dei dati gia presenti in azienda con un layer on-top di intelligenza artificiale a supporto della gestione operativa e della salute della mandria. Obiettivo: portare l&#x27;approccio in serra e dimostrarne la scalabilita su tutta l&#x27;agricoltura. Operativi da 7 mesi con piloti e prodotto gia sul mercato.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro (dominio zootecnico, da trasferire in serra)</div></div>
+<div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d3">
+<summary class="dossier-head"><span class="idx">03</span><h3>FlexyGrid (Team AgriFlex)</h3>
+<span class="pill sf4">04 Energia</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Bolzano / Roma, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Prototipo in laboratorio</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Energia dell&#x27;impianto</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">BSP accreditato sui tre piloti italiani dei Mercati Locali di Flessibilita (MiNDFlex, RomeFlex, EDGE). La sfida descrive fotovoltaico sottoutilizzato, dipendenza dalla rete e diesel come unica risposta al blackout: accumulo e carichi risolvono i primi due punti, ma l&#x27;ostacolo vero e economico, il solo costo evitato non ripaga l&#x27;accumulo. Sanno vendere la flessibilita ad Areti. In CEA la flessibilita e limitata dalla fisiologia delle colture (DLI, bande termoigrometriche, ricircolo acquaponico): formalizzare questi vincoli nell&#x27;ottimizzatore e anche ricerca.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">AgriFlex: motore di ottimizzazione applicato a impianto CEA con livello di vincoli agronomici e gerarchia di continuita. Nessun hardware venduto; integrazione con sei famiglie di inverter e accumuli su Modbus, BACnet, OPC-UA, MQTT, OCPP. Quattro livelli: misura (gateway edge, sotto-misura, parametri ambientali serra); previsione (modelli LightGBM validati nel progetto HyFlex MASE/PNRR, probabilistici); ottimizzazione (programmazione dinamica stocastica su orizzonte rolling, obiettivo scelto tra costo/autoconsumo/emissioni/autonomia, con DLI, bande termoigrometriche, VPD e ricircolo acquaponico come vincoli espliciti); mercato (modulazione residua venduta ad Areti, payback da ~14 a ~8 anni). Continuita a quattro livelli con supporto vitale acquaponico e fitotroni prioritari, diesel come ultima risorsa. Pilot avviabile senza acquistare batterie.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Energy management</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d4">
+<summary class="dossier-head"><span class="idx">04</span><h3>Moka Bio</h3>
+<span class="pill sf3">03 La natura aiuta</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Buenos Aires, Argentina</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Prototipo in laboratorio</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La natura aiuta</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Frammentazione della conoscenza scientifica e inefficienza nella scoperta e validazione dei bioattivi naturali: la ricerca di composti utili nella biodiversita richiede anni di studi costosi prima del laboratorio. Risolvono la mancanza di tracciabilita e connessione tra dati botanici, chimici e biologici per accelerare il processo decisionale in R&amp;D.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">MokaDex, strato di intelligenza per la biodiversita che combina IA, dati biologici e chimici e validazione sperimentale. Organizza l&#x27;evidenza scientifica a partire dalla domanda iniziale (attivita, applicazione, vincoli) collegando specie, composti e saggi per generare una shortlist di candidati tracciabili con lacune informative esplicitate prima del passaggio in laboratorio.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">Biotech e biomolecole</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+<details class="dossier" id="d6">
+<summary class="dossier-head"><span class="idx">06</span><h3>planTeMaG</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Portici (NA), Italia</div>
+<div><span>Tipologia</span>Team universitario o studenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Ricerca in corso</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Gli esperimenti in serra si basano ancora su flussi di lavoro frammentati, in cui monitoraggio ambientale, misure fisiologiche e gestione sperimentale sono spesso scollegati: esperimenti piu lenti, difficili da scalare e molto dipendenti da operazioni manuali. Una serra davvero pensante dovrebbe non solo monitorare le piante ma supportare la gestione sperimentale integrando sensing, fenotipizzazione (radice e germoglio) e AI in un&#x27;unica piattaforma di ricerca.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Piattaforma modulare che trasforma progressivamente la serra in un ecosistema sperimentale intelligente. Livello base: sensori di suolo e ambiente, misure lisimetriche e modelli di traspirazione a supporto di irrigazione, nutrizione e illuminazione specie-specifica. Secondo livello: fenotipizzazione continua con imaging RGB, analisi della canopy, fluorescenza della clorofilla e indici di vegetazione per la diagnosi precoce di stress biotici e abiotici. Moduli sperimentali avanzati: camere a pianta singola per misure automatiche di scambio gassoso (assimilazione CO2, traspirazione, conduttanza stomatica) e campionamento VOC per volatiloma e comunicazione pianta-pianta. L&#x27;AI fa da livello di integrazione con computer vision, deep learning, modelli supervisionati e analisi di serie temporali. Estensione possibile alla valutazione non distruttiva di produttivita e qualita alimentare.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">Computer vision e imaging</span><span class="chip">IoT e sensoristica</span><span class="chip">Coltivazione in ambiente controllato</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d7">
+<summary class="dossier-head"><span class="idx">07</span><h3>ArcoLab (SAGE)</h3>
+<span class="pill sf4">04 Energia</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Gruppo di ricerca o spin-off</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Ricerca in corso</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Energia dell&#x27;impianto</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">L&#x27;energia e un fattore critico per continuita operativa e sostenibilita di una serra tecnologica. La produzione fotovoltaica e variabile e meteo-dipendente, mentre climatizzazione, illuminazione e irrigazione richiedono energia in modo continuo con diversi livelli di flessibilita. Il bisogno e ridurre il disallineamento tra produzione rinnovabile e domanda coordinando accumulo, carichi flessibili, scambi con la rete e gruppo elettrogeno, senza compromettere i vincoli operativi e biologici della serra.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">SAGE, Energy Management System predittivo e adattivo per serre tecnologiche. Integra dati storici e real-time su produzione fotovoltaica, consumi, stato dello storage e meteo per prevedere produzione e domanda su piu orizzonti temporali. Le previsioni alimentano un modulo di ottimizzazione multi-obiettivo che coordina accumulo, carichi flessibili, rete e gruppo elettrogeno rispettando priorita operative e vincoli colturali; i carichi sono classificati in critici, flessibili e modulabili. Strato software hardware-agnostic, integrabile con l&#x27;infrastruttura esistente e validabile per gradi con dati storici, simulazione, shadow mode e pilot.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">Energy management</span><span class="chip">Osservazione della Terra</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d8">
+<summary class="dossier-head"><span class="idx">08</span><h3>iMINT-Lab</h3>
+<span class="pill sf3">03 La natura aiuta</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Innovatori indipendenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La natura aiuta</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Competenze multidisciplinari per sviluppare protocolli di coltivazione idroponica di microgreens sfruttandone sostenibilita economica e rapidita di crescita, per favorire l&#x27;arricchimento di molecole bioattive di interesse nutraceutico e farmaceutico. La caratterizzazione analitica quantitativa dei metaboliti consente di correlare condizioni di coltivazione e profilo fitochimico; lo screening computazionale identifica e prioritizza i composti piu promettenti, creando un test-bed agritech per produzioni vegetali standardizzate e ad elevato valore biologico.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Approccio integrato che considera la pianta un sistema biologico modulabile. Quattro fasi: screening varietale su piu cultivar di broccolo per selezionare il genotipo piu predisposto alla biosintesi dei flavonoidi target, con disegno sperimentale multifattoriale sul rapporto azoto/zolfo; ottimizzazione della coltivazione idroponica modulando spettro e intensita luminosa, fotoperiodo, nutrienti ed elicitazione controllata, con definizione di timing di raccolta e protocollo post-raccolta; caratterizzazione analitica e biologica con identificazione e quantificazione dei metaboliti e saggi bioattivi; predizione computazionale in silico di tossicita, epatotossicita e ADMET con modelli QSAR, identificazione dei target proteici nei pathway infiammatori via docking 3D e dinamica molecolare. Output: modello quantitativo predittivo per trasformare le colture idroponiche in biofabbriche vegetali.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">Biotech e biomolecole</span><span class="chip">AI / Machine Learning</span><span class="chip">Estrazione e chimica analitica</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d9">
+<summary class="dossier-head"><span class="idx">09</span><h3>CosmoSPROUT</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Gruppo di ricerca o spin-off</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Tutti e sei gli obiettivi della sfida partono dal presupposto che il dato dei sensori sia buono: in un impianto fuori suolo a ciclo chiuso spesso non lo e. Le sonde immerse in acqua biologicamente attiva si sporcano e derivano senza far scattare allarmi; un problema che nasce in un sottosistema si vede in un altro ore dopo; l&#x27;impianto e attivo da pochi mesi e non ha storico di guasti. Il bisogno: l&#x27;impianto deve sapere quando puo fidarsi di una propria misura, perche lo stesso valore fuori range puo significare sonda sporca, taratura andata, transitorio, problema della pianta o dato corrotto.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Un solo ambiente portato a controllo totale. Prima osservabile e comandabile da remoto (grandezze acquisite e storicizzate, set point e schedulazioni modificabili, rampe, permessi per ruolo, interlock, tracciamento). Sopra, un Digital Twin a bilanci di massa ed energia allineato ai dati, che calcola il valore atteso di ogni grandezza e ricostruisce quelle mancanti dichiarando l&#x27;incertezza. La diagnosi lavora sui residui (misurato meno atteso): test sequenziali per rilevare l&#x27;anomalia, classificatore che isola la causa con probabilita, soglia di astensione con escalation all&#x27;operatore, prognosi del tempo residuo. Le telecamere fanno da controprova tra sonda e pianta. Cockpit web e mobile con schema d&#x27;impianto, valori live, allarmi, ipotesi di causa e azioni consigliate. Campagna di fault injection reversibili per generare il dataset in mesi anziche anni.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Digital twin</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Computer vision e imaging</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d10">
+<summary class="dossier-head"><span class="idx">10</span><h3>pjp industries (LoopProof)</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Ankara, Turchia (team distribuito)</div>
+<div><span>Tipologia</span>Innovatori indipendenti</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Gli allarmi della serra segnalano letture anomale senza spiegare se la causa sia aumento della resistenza idraulica, riduzione della portata della pompa o un guasto del sensore. LoopProof affronta questo gap diagnostico su un sottosistema di ricircolo idroponico, combinando dati operativi esistenti, un digital twin compatto e test diagnostici brevi e delimitati per distinguere le ipotesi di guasto e ridurre il tempo di troubleshooting manuale. Il Campus offre pompe, valvole, sensori, PLC industriale e competenze per esperimenti controllati.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Strato software modulare per operazioni idroponiche affidabili. Si collega in sola lettura a un sottosistema del circuito idrico, costruisce una baseline di qualita del dato con timestamp e combina relazioni di bilancio di massa e idrauliche con parametri appresi dal funzionamento sano. Il modello prevede le risposte ai comandi di pompe e valvole con incertezza esplicita e confronta le ipotesi supportate; se l&#x27;evidenza e insufficiente riporta diagnosi non risolta. Dove i dati passivi non bastano propone un test attuatore breve e delimitato. Il PLC mantiene l&#x27;autorita protettiva; deployment in shadow mode, ogni test live richiede approvazione tecnica, limiti, abort e ritorno a baseline. Pilot di otto settimane con target di -30% sul tempo mediano di troubleshooting e 85% di identificazione corretta (target dichiarati, non risultati).</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Digital twin</span><span class="chip">AI / Machine Learning</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d11">
+<summary class="dossier-head"><span class="idx">11</span><h3>FoodForge</h3>
+<span class="pill sf2">02 Novel Food</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Team universitario o studenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Alimentazione sostenibile &amp; Novel Food</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Rendere la produzione alimentare piu resiliente ai cambiamenti climatici e capace di offrire alimenti con maggiore valore nutrizionale e funzionale. La coltivazione in ambiente controllato permette di usare nutrizione minerale e gestione della luce per modulare e rendere riproducibili le caratteristiche dei vegetali. Focus sulla biofortificazione con molibdeno, elemento essenziale per la pianta e potenzialmente coinvolto nell&#x27;omeostasi del ferro. Obiettivo: passare dalla produzione di biomassa alla progettazione della qualita dell&#x27;alimento in ottica One Health.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Approccio integrato di coltivazione e biofortificazione in ambiente controllato per vegetali con caratteristiche nutrizionali e fitochimiche definite e riproducibili. Il sistema idroponico modula la disponibilita di molibdeno in forma ionica assorbibile; la gestione della luce influenza crescita e accumulo di composti bioattivi. L&#x27;interazione tra nutrizione minerale e condizioni luminose viene studiata prima sul sistema modello Micro-Tom, poi trasferita al pomodoro San Marzano e infine alla lattuga per dimostrare la trasferibilita. Integra controllo agronomico e caratterizzazione analitica avanzata per definire un protocollo standardizzato e trasferibile.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">Illuminazione orticola LED</span><span class="chip">Estrazione e chimica analitica</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d12">
+<summary class="dossier-head"><span class="idx">12</span><h3>Agrisolana</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Assisi (PG), Italia</div>
+<div><span>Tipologia</span>Innovatori indipendenti</div>
+<div><span>Team dichiarato</span>3 (non nominati)</div>
+<div><span>Stadio</span>Prototipo in laboratorio</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Risposta minima: progetto gia oggetto di investimento e allineato agli interessi del team. Nessun bisogno specifico articolato.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Piattaforma di intelligenza agronomica sviluppata in combinazione con serre verticali fuori suolo. Descrizione non ulteriormente dettagliata nel modulo.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro, ma contenuto troppo sintetico per una valutazione di merito</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d13">
+<summary class="dossier-head"><span class="idx">13</span><h3>SPROWER</h3>
+<span class="pill sf2">02 Novel Food</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Castelfranco Veneto (TV), Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Prototipo in laboratorio</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Alimentazione sostenibile &amp; Novel Food</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Dare una risposta concreta alla campagna 5 A DAY dell&#x27;Organizzazione Mondiale della Sanita. Risposta sintetica, senza articolazione del bisogno tecnico.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Team internazionale che dopo 7 anni di R&amp;S ha brevettato una nuova linea di materie prime stabilizzate a base di germogli vegetali. Con le Universita di Torino e Pavia e stato rilevato un rapporto nutritivo di almeno 1:1.500 e una matrice complessa ricca di molecole ad elevato potenziale scientifico e formulativo, ciascuna con almeno tre betacomposti. Profili adatti a healthy longevity, massa magra, sport, area gastrointestinale e salute femminile. Prima pubblicazione scientifica internazionale in programma.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Biotech e biomolecole</span><span class="chip">Coltivazione in ambiente controllato</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d14">
+<summary class="dossier-head"><span class="idx">14</span><h3>E:DEN</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Cecina (LI), Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Ricerca in corso</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Il principale limite alla digitalizzazione agricola non e la mancanza di software ma la difficolta di raccogliere dati affidabili, continui e georeferenziati direttamente durante le normali attivita in campo. Molte aziende usano ancora informazioni frammentate, inserite manualmente o provenienti da sistemi non interoperabili. E:DEN affronta il gap con Bionect e Natura Cloud: infrastruttura hardware-software che acquisisce automaticamente dati da macchine, sensori e attivita agricole e li trasforma in informazioni per monitoraggio operativo, tracciabilita e supporto decisionale. Obiettivo: rendere la raccolta dati una conseguenza naturale del lavoro in campo.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Architettura integrata: Bionect, layer hardware/edge per l&#x27;acquisizione dati in campo, e Natura Cloud, piattaforma software per aggregazione, visualizzazione e valorizzazione. Bionect integra sensoristica, localizzazione e connettivita direttamente sulle macchine agricole, acquisendo dati operativi georeferenziati durante le lavorazioni, con architettura estendibile a ulteriori sensori senza attivita manuali. Natura Cloud struttura i flussi creando uno storico digitale su cui sviluppare dashboard operative, tracciabilita, manutenzione predittiva e servizi agronomici data-driven; roadmap con computer vision e modelli AI a partire dalla viticoltura. eBacco e il primo veicolo progettato nativamente per questa architettura, ma l&#x27;obiettivo e un layer digitale applicabile anche a flotte e macchine eterogenee.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro parziale: macchine agricole in campo aperto, layer dati trasferibile</div></div>
+<div class="chips"><span class="chip">IoT e sensoristica</span><span class="chip">Robotica e automazione</span><span class="chip">Piattaforme software / DSS</span><span class="chip">Computer vision e imaging</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+<details class="dossier" id="d16">
+<summary class="dossier-head"><span class="idx">16</span><h3>LUMEN-IS</h3>
+<span class="pill sf3">03 La natura aiuta</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Team universitario o studenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La natura aiuta</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Sviluppare strategie sostenibili e robuste per valorizzare le piante officinali come fonte di molecole bioattive di interesse nutraceutico. Affronta una criticita chiave della filiera: la variabilita della composizione fitochimica, influenzata dalle condizioni di coltivazione e dai processi estrattivi. Integra modulazione luminosa, estrazione a basso impatto con NADES, caratterizzazione chimica e validazione biologica, con l&#x27;obiettivo di estratti riproducibili, standardizzati e biologicamente caratterizzati, includendo la compatibilita regolatoria.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Filiera sperimentale integrata in cinque Work Package. WP1: ottimizzazione con tecnologia LED delle condizioni luminose per Perilla frutescens, Melissa officinalis, Ocimum basilicum e Hypericum perforatum, cercando il miglior compromesso tra biomassa e accumulo di bioattivi. WP2: procedure estrattive specie-specifiche a basso impatto con Natural Deep Eutectic Solvents ottimizzate con Design of Experiments. WP3: profilo quali-quantitativo degli estratti con RP-HPLC-ESI-MS/MS (composti fenolici, antocianine, marker chimici). WP4: attivita biologica su modelli cellulari e organoidi intestinali, distinguendo il contributo vegetale da quello del NADES. WP5 trasversale: aspetti regolatori su biomasse e NADES.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">Illuminazione orticola LED</span><span class="chip">Estrazione e chimica analitica</span><span class="chip">Biotech e biomolecole</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d17">
+<summary class="dossier-head"><span class="idx">17</span><h3>In4agri</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Parma, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Soluzione gia in uso o sul mercato</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Traghettare l&#x27;Agri Research and Teaching Center verso un&#x27;infrastruttura cognitiva. Affrontano il limite dell&#x27;automazione a regole fisse e della gestione manuale, superando la frammentazione dei dati (sensori, attuatori, parametri ambientali). Integrano l&#x27;architettura esistente con un Digital Twin e moduli di intelligenza artificiale, trasformando l&#x27;impianto in una piattaforma autoapprendente capace di anticipare criticita, ottimizzare i consumi e supportare le decisioni in tempo reale.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Layer di intelligenza e orchestrazione dati sopra l&#x27;architettura esistente della serra, senza hardware proprietario esclusivo. Tre pilastri: 1) Digital Twin dell&#x27;infrastruttura, rappresentazione digitale unificata che aggrega in tempo reale i dati da PLC, sensori (pH, temperatura, EC, umidita, livelli) e attuatori (LED, pompe, valvole), modellando processi biologici, ambientali e idraulici e storicizzando i dati per simulazioni e analisi predittive; 2) moduli AI e autoapprendimento con algoritmi di machine learning per anomaly detection e manutenzione predittiva, rilevando derive anomale prima che diventino criticita; 3) Decision Support System e ottimizzazione, evolvendo da regole fisse a automazione dinamica per cicli di illuminazione, climatizzazione e dosaggio nutrienti. Rollout incrementale da un sottosistema pilota all&#x27;intero impianto.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Digital twin</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Piattaforme software / DSS</span><span class="chip">Osservazione della Terra</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+<details class="dossier" id="d19">
+<summary class="dossier-head"><span class="idx">19</span><h3>Voila srl (DynaLed)</h3>
+<span class="pill sf3">03 La natura aiuta</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Latina, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Prototipo in laboratorio</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La natura aiuta</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">In ambiente controllato il contenuto di biomolecole dipende dalla luce che ogni pianta riceve, ma la luce non e ne uniforme ne tracciata. L&#x27;intensita varia sull&#x27;area di coltivazione generando variabilita tra lotti; per portare il punto meno illuminato alla dose target l&#x27;intero sistema eroga piu luce del necessario. Nelle vertical farm l&#x27;energia arriva al 40% dei costi operativi e l&#x27;illuminazione usa il 50-65% dell&#x27;elettricita. Ridurre la distanza da 45 a 15 cm puo dimezzare i consumi a parita di flusso fotonico e biomassa. Serve erogare la stessa dose ovunque, tracciarla e usare meno watt.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">DynaLed, sorgente luminosa dinamica con cinque canali spettrali controllati indipendentemente. La rotazione distribuisce la luce nel tempo e ogni emettitore e regolato dinamicamente in base alla posizione, permettendo di progettare il sistema sull&#x27;intensita media target anziche sul punto meno illuminato. Opera a 12-25 cm dalla canopy. Un sensore multispettrale integrato mappa la risposta della coltura a intensita, spettro e angolo noti, generando dati dose-risposta tracciabili per modelli predittivi. Nel pilot la dose luminosa sara mappata e DynaLed calibrato; si valutera la variabilita del composto target a parita di dose, seguita da due cicli di stress controllato per definire un protocollo standardizzato basato sulla dose fotonica anziche sul tempo di esposizione. Zafferano come primo modello di validazione ad alto valore, con qualita standardizzata ISO 3632. Domanda di brevetto n. 102026000026758 depositata il 17/09/2026.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Illuminazione orticola LED</span><span class="chip">IoT e sensoristica</span><span class="chip">AI / Machine Learning</span><span class="chip">Coltivazione in ambiente controllato</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+<details class="dossier" id="d21">
+<summary class="dossier-head"><span class="idx">21</span><h3>Sweeft</h3>
+<span class="pill sf2">02 Novel Food</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Team universitario o studenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">Alimentazione sostenibile &amp; Novel Food</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Risolvere il fallimento della filiera globale delle molecole botaniche tropicali ad alto valore, caratterizzata da estrema instabilita agronomica e sprechi post-raccolta vicini al 40%. Doppio bisogno: a monte, superare l&#x27;incapacita dell&#x27;agricoltura tradizionale di garantire una resa costante di Miraculina (glicoproteina estratta da Synsepalum dulcificum che converte la percezione dell&#x27;acido in dolce); a valle, rispondere a un bisogno clinico severo, il disagio alimentare dei bambini con diabete di tipo 1. Obiettivo: una filiera agricola indoor per un&#x27;alternativa sicura, 100% naturale e a impatto glicemico zero ai dolcificanti artificiali per uso clinico pediatrico.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Approccio di Precision Pharming che converte i fitotroni in bioreattori cognitivi. Coltivazione isolata di Synsepalum dulcificum in sistema idroponico a ciclo chiuso, applicando stress fotobiologico controllato (modulazione LED) per forzare l&#x27;iperespressione genica della Miraculina. Innovazione centrale: architettura IIoT integrata con modelli AI (Reinforcement Learning); il Digital Twin del fitotrone correla micro-dati ambientali e analisi fitochimiche per generare alert di Predictive Harvesting, individuando la finestra esatta in cui il titolo proteico raggiunge il picco. Post-raccolta: estrazione a freddo e liofilizzazione sotto vuoto in loco (zero food-waste). Formulazione come Novel Food in ODF (Orally Disintegrating Film), film edibile polimerico a dissoluzione rapida, trasformando una pianta instabile in un Alimento a Fini Medici Speciali.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">AI / Machine Learning</span><span class="chip">Digital twin</span><span class="chip">IoT e sensoristica</span><span class="chip">Illuminazione orticola LED</span><span class="chip">Biotech e biomolecole</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d22">
+<summary class="dossier-head"><span class="idx">22</span><h3>PharmaPlant</h3>
+<span class="pill sf3">03 La natura aiuta</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Gruppo di ricerca o spin-off</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La natura aiuta</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">PHARMA-PLANT trasforma la coltivazione indoor in un fotobioreattore ad alta precisione per produrre biomolecole ad alto valore aggiunto. Attraverso ingegneria di processo ed elicitazione abiotica (stress salino e UV-B) ottimizzano la sintesi di acido rosmarinico e carnosico in Rosmarinus officinalis L., incrementando la resa di oltre il 40%. L&#x27;estrazione green con solventi eutettici naturali (NaDES) assicura estratti puri, privi di pesticidi e solventi tossici. Il progetto risponde al paradigma One Health coniugando salute umana, innovazione nutraceutica/farmaceutica e sostenibilita ambientale con risparmio idrico &gt;90% e zero consumo di suolo.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Approccio ingegneristico all&#x27;agricoltura in ambiente controllato che trasforma le piante medicinali in fitofabbriche di precisione. Tre fasi: 1) ottimizzazione idroponica della biomassa in fitotroni a microclima controllato con idroponica a ricircolo (EC 1,8 dS/m), riduzione del consumo idrico &gt;90%, zero suolo e zero pesticidi; 2) elicitazione abiotica sinergica nell&#x27;ultima settimana prima del raccolto con stress salino-osmotico (EC portata a 4,2 dS/m con K2SO4 e MgSO4) e impulsi fotodinamici UV-B LED (295-310 nm) che attivano la fenilalanina ammonio-liasi, con +40% dei bioattivi target e variabilita inter-batch sotto il 5%; 3) estrazione green downstream con Ultrasound-Assisted Extraction e NaDES (cloruro di colina : acido L-lattico 1:2, 20% H2O), metodo zero-VOC food-grade validato via HPLC-DAD/MS.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Coltivazione in ambiente controllato</span><span class="chip">Estrazione e chimica analitica</span><span class="chip">Illuminazione orticola LED</span><span class="chip">Biotech e biomolecole</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+<details class="dossier" id="d24">
+<summary class="dossier-head"><span class="idx">24</span><h3>AGRISKY</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Prototipo testato sul campo</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Le serre moderne raccolgono grandi quantita di dati da sensori e PLC, ma i dati sono frammentati e usati soprattutto per il monitoraggio, senza essere trasformati in informazioni predittive a supporto delle decisioni. Lo stato delle colture viene ancora valutato con scouting manuale. AGRISKY affronta la necessita di integrare dati di impianto e dati raccolti direttamente sulle piante per migliorare l&#x27;efficienza operativa, anticipare criticita fitosanitarie, ottimizzare consumi e attivita produttive e rendere la produzione piu prevedibile.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Sistema integrato con due soluzioni complementari. AGRISKY.APP: piattaforma web DSS che si integra con PLC, sensori e sistemi di automazione della serra per raccogliere e centralizzare dati ambientali, produttivi ed energetici, monitorare i parametri, organizzare task e attivita produttive, pianificare le operazioni e trasformare i dati in supporto decisionale e monitoraggio predittivo. AGRI-EYE: scanner robotico su binario installato sopra le colture che acquisisce immagini e usa computer vision e AI per monitorare lo stato di salute delle piante, con rilevazione precoce di parassiti, malattie e anomalie e previsione della resa. L&#x27;approccio integra dati di impianto e dati plant-level in un unico ecosistema digitale, passando da una gestione reattiva a una data-driven e predittiva.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Computer vision e imaging</span><span class="chip">Robotica e automazione</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d25">
+<summary class="dossier-head"><span class="idx">25</span><h3>AgriSnapp</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Team universitario o studenti</div>
+<div><span>Team dichiarato</span>3</div>
+<div><span>Stadio</span>Idea o concept</div>
+<div><span>Stato F6S</span>Finalized &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">La sfida e l&#x27;anello di congiunzione tra agronomia applicata e AI avanzata. Con AgriSnapp e stato dimostrato il valore della computer vision e della diagnosi tempestiva in campo; la challenge offre l&#x27;opportunita di portare quella visione dentro un ambiente controllato ad altissima densita tecnologica, trasformando un&#x27;infrastruttura rigida a logiche statiche in un ecosistema cognitivo capace di autoapprendere, anticipare i problemi e dialogare in tempo reale con la biologia vegetale. Convergenza ideale per modelli predittivi, anomaly detection e digital twin.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">La tecnologia AgriSnapp diventa il motore cognitivo del Digital Twin dell&#x27;impianto. Il limite dei PLC a regole fisse e l&#x27;incapacita di rilevare la risposta biologica in tempo reale: i sensori misurano l&#x27;ambiente, non la pianta. Integrando i modelli di computer vision su telecamere fisse lungo i canali idroponici e mantenendo l&#x27;app mobile per controlli mirati, il sistema realizza una fusione dati multimodale continua: i flussi visivi (vigore fogliare, clorosi, marciumi) sono incrociati con la telemetria del PLC (pH, EC, DO, T, spettro LED). Il Digital Twin simula flussi idraulici ed energetici e dinamiche di crescita; modelli di anomaly detection su serie temporali (Autoencoder e Isolation Forest) isolano usure di pompe, derive chimiche o deficit di ossigeno con 24-48 ore di anticipo. L&#x27;automazione evolve a circuito chiuso con micro-regolazioni sul PLC per ricette spettrali e dosaggi nutrienti. Pilot rapido su una singola linea idroponica con ingestione IIoT/MQTT e copilota prescrittivo su app Flutter.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Computer vision e imaging</span><span class="chip">Digital twin</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+<details class="dossier" id="d26">
+<summary class="dossier-head"><span class="idx">26</span><h3>WeavAir</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill ok">Ammissibile</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Varsavia, Polonia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>2</div>
+<div><span>Stadio</span>Prototipo testato sul campo</div>
+<div><span>Stato F6S</span>In Progress &middot; NDA caricato</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">Le serre tradizionali sono fondamentalmente reattive: rispondono agli shock climatici (picchi di calore improvvisi, variazioni di umidita, fluttuazioni della rete elettrica) dopo che si sono verificati, con stress delle colture, volatilita delle rese e grandi sprechi energetici. Al settore agricolo manca un sistema predittivo e iper-locale di mitigazione del rischio climatico capace di ottimizzare autonomamente le risorse in tempo reale.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">Approccio Orbital-to-Ground Predictive Digital Twin su tre livelli tecnologici. 1) Satellite intelligence e remote sensing: imaging satellitare multispettrale ad alta risoluzione e mappatura termica per modellare variazioni del microclima esterno, irradianza solare e anomalie meteo imminenti a livello iper-locale. 2) Nucleo predittivo AI: algoritmi di machine learning che fondono i dati orbitali con i feed IoT a terra (temperatura, umidita del suolo, CO2, prelievo energetico), creando un digital twin dinamico con modellazione predittiva del rischio climatico a 48-72 ore. 3) Resilienza proattiva e MRV automatizzato: l&#x27;AI raccomanda o attiva autonomamente regolazioni preventive (ombreggiamento dinamico, ciclaggio HVAC ottimizzato, irrigazione di precisione) mentre il modulo MRV quantifica i risparmi di carbonio ed energia, a supporto della visione One Health e dell&#x27;eleggibilita a green financing.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">Osservazione della Terra</span><span class="chip">Digital twin</span><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Energy management</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill ok">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div>
+</details>
+
+
+
+
+
+
+
+
+
+
+<details class="dossier" id="d37">
+<summary class="dossier-head"><span class="idx">37</span><h3>EdenForge</h3>
+<span class="pill sf1">01 Serra che Pensa</span><span class="pill warn">Ammissibile con integrazioni</span></summary>
+
+<div class="facts">
+<div><span>Sede</span>Roma, Italia</div>
+<div><span>Tipologia</span>Startup</div>
+<div><span>Team dichiarato</span>4</div>
+<div><span>Stadio</span>Soluzione gia in uso o sul mercato</div>
+<div><span>Stato F6S</span>In Progress &middot; NDA mancante</div>
+<div><span>Presenza al Campus</span>Si</div>
+</div>
+<div class="qa"><div class="q">D7 &middot; Quale sfida hai scelto</div><div class="a">La Serra che Pensa</div></div>
+<div class="qa"><div class="q">D8 &middot; Perche questa sfida e quale bisogno affronti</div><div class="a">La maggior parte delle serre e gia automatizzata ma non intelligente: il controllo esegue setpoint fissi e lascia all&#x27;agronomo il compito di deciderli ogni giorno. EdenForge porta il livello decisionale: un motore auto-ottimizzante legge i flussi dei sensori, inferisce le relazioni causa-effetto tra ambiente, nutrizione e risposta della coltura e affina in continuo la ricetta colturale, portando irrigazione, fertirrigazione, clima e luce da reattivi a predittivi. Approccio retrofit-first: il Climate Hub parla i protocolli gia presenti in campo e si aggiunge sopra l&#x27;automazione esistente, continuando a lavorare in locale se il cloud cade. Chiudono anche l&#x27;anello del dosaggio, bilanciamento e riordino automatico dei nutrienti.</div></div>
+<div class="qa"><div class="q">D9 &middot; Soluzione, tecnologia o approccio</div><div class="a">L&#x27;agricoltura in ambiente controllato ha un problema di produttivita nascosto dietro la tecnologia: gli impianti sono pieni di sensori, valvole, gruppi di dosaggio e computer climatici, ma l&#x27;intelligenza che li tiene insieme resta nella testa di una persona, e resa, qualita e costo energetico dipendono dall&#x27;esperienza dell&#x27;agronomo presente in quel sito. La risposta del mercato finora e stata vendere un nuovo sistema di controllo, smantellando un&#x27;automazione funzionante e vincolandosi a un solo fornitore. EdenForge parte dall&#x27;estremo opposto: dare a una serra o vertical farm esistente un livello decisionale adottabile, che si innesta sull&#x27;automazione gia installata, impara dai dati di quel singolo impianto anziche da un modello colturale generico, continua a lavorare in locale quando la connettivita cade e gestisce la nutrizione con lo stesso rigore del clima. Il Climate Hub e un&#x27;unita a parete IP-rated che si collega via Modbus, OPC-UA, 0-10 V, 4-20 mA e uscite relay, con scheduling multi-zona e fallback locale.</div></div>
+<div class="qa"><div class="q">Perimetro</div><div class="a">In perimetro</div></div>
+<div class="chips"><span class="chip">AI / Machine Learning</span><span class="chip">IoT e sensoristica</span><span class="chip">Energy management</span><span class="chip">Piattaforme software / DSS</span></div>
+<div class="checks"><span class="pill ok">Tipologia candidato</span><span class="pill ok">Sfida selezionata</span><span class="pill ok">Proposta descritta</span><span class="pill no">NDA caricato</span><span class="pill ok">Disponibilita in presenza</span><span class="pill ok">Perimetro tematico</span></div><div class="flag">Il candidato segnala di non riuscire a caricare l&#x27;NDA firmato e di non ricevere risposta sulla piattaforma; pagina F6S precedente cancellata e ricreata. Da gestire prima di qualunque esclusione formale.</div>
+</details>
+
+
+
+</section>
+
+<footer class="wrap">Panoramica generata sui dati della pipeline F6S del gruppo V.I.T.A. &middot; 40 candidature &middot; dati al 22 settembre 2026</footer>
+</div>
+<script>
+(function(){
+ var tb=document.querySelector('#idx tbody'), btns=document.querySelectorAll('#filters button');
+ btns.forEach(function(b){b.addEventListener('click',function(){
+   btns.forEach(function(x){x.setAttribute('aria-pressed','false')});
+   b.setAttribute('aria-pressed','true');
+   var f=b.dataset.f;
+   Array.prototype.forEach.call(tb.rows,function(row){
+     var show = f==='all'
+       || (f.indexOf('amm-')===0 && row.dataset.amm===f.slice(4))
+       || (f.indexOf('sf-')===0 && row.dataset.sf===f.slice(3));
+     row.classList.toggle('hidden', !show);
+   });
+ })});
+})();
+</script>
+</body></html>
+</body></html>
